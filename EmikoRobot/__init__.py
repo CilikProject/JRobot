@@ -37,10 +37,10 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
-LOGGER = logging.getLogger('[Zenitsu]')
-LOGGER.info("Zenitsu is starting. | An Grey Project Parts. | Licensed under GPLv3.")
+LOGGER = logging.getLogger('[JRobot]')
+LOGGER.info("JRobot is starting. | An Grey Project Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
-LOGGER.info("Project maintained by: github.com/grey423 (t.me/xxlgreyy)")
+LOGGER.info("Project maintained by: github.com/grey423 (t.me/greyvbss)")
 
 # if version < 3.9, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 9:
@@ -216,7 +216,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(847793223)
+DEV_USERS.add(5163131445)
 DEV_USERS.add(1784606556)
 
 if not SPAMWATCH_API:
