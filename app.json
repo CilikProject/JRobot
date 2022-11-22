@@ -1,5 +1,5 @@
 {
-      "name": "Zenitsu",
+      "name": "JRobot",
       "description": "A Powerful  Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "naorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/f268a324304deaa0f0180.jpg",  
-   "repository": "https://github.com/CilikProject/Zenitsu",
+   "logo":    "https://telegra.ph/file/03db54f3e039f3cb710fb.jpg",  
+   "repository": "https://github.com/CilikProject/JRobot",
    "addons": [
           {
          "options": {
