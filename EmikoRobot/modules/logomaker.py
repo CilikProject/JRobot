@@ -113,7 +113,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Zenitsu Robot](https://t.me/ZeniitsuRobot)",
+            caption="Logo by [J Robot](https://t.me/jMusiccc_bot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -196,7 +196,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Zenitsu Robot](t.me/ZeniitsuRobot)",
+            caption="Logo by [J Robot](t.me/jMusiccc_bot)",
             force_document=False,
         )
         os.remove(flnme)
