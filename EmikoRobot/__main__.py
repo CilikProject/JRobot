@@ -445,7 +445,7 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*Bantuan Perintah J Robot* [📝]https://telegra.ph/file/03db54f3e039f3cb710fb.jpg)"
+            text="*Bantuan Perintah J Robot* [📝](https://telegra.ph/file/03db54f3e039f3cb710fb.jpg)"
             "\npilih tombol dibawah untuk melihat bantuan perintah J Robot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
